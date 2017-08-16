@@ -20,6 +20,6 @@
 
 - (void)tx_presentViewController:(UIViewController *)viewController animated:(BOOL)animated completion:(dispatch_block_t)completion;
 
-- (void)tx_dismissViewModelAnimated:(BOOL)animated completion:(dispatch_block_t)completion;
+- (void)tx_dismissViewControllerAnimated:(BOOL)animated completion:(dispatch_block_t)completion;
 
 @end

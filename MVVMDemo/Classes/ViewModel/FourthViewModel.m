@@ -14,7 +14,7 @@
     @weakify(self);
     self.didSelectCommand = [[RACCommand alloc] initWithSignalBlock:^(NSIndexPath *indexPath) {
         @strongify(self)
-        [self tx_dismissViewModelAnimated:YES completion:nil];
+        [self tx_dismissViewControllerAnimated:YES completion:nil];
         //        [self tx_popToRootViewControllerAnimated:YES];
         return [RACSignal empty];
     }];

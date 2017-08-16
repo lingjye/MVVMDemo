@@ -95,7 +95,7 @@
     [VisibleViewController() presentViewController:viewController animated:animated completion:completion];
 }
 
-- (void)tx_dismissViewModelAnimated:(BOOL)animated completion:(dispatch_block_t)completion {
+- (void)tx_dismissViewControllerAnimated:(BOOL)animated completion:(dispatch_block_t)completion {
     [VisibleViewController() dismissViewControllerAnimated:animated completion:completion];
 }
 
