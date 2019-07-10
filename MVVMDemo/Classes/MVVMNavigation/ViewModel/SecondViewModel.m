@@ -7,8 +7,7 @@
 //
 
 #import "SecondViewModel.h"
-
-#import "ThirdViewController.h"
+#import "ThirdViewModel.h"
 
 @interface SecondViewModel ()
 
@@ -21,8 +20,8 @@
     @weakify(self);
     self.didSelectCommand = [[RACCommand alloc] initWithSignalBlock:^(NSIndexPath *indexPath) {
         @strongify(self)
-        ThirdViewController *thirdViewController = [[ThirdViewController alloc] initWithParams:@{@"title":@"Third"}];
-        [self tx_pushViewController:thirdViewController animated:YES];
+        ThirdViewModel *viewModel = [[ThirdViewModel alloc] initWithParams:@{@"title":@"Third"}];
+        [self pushViewModel:viewModel animated:YES];
         return [RACSignal empty];
     }];
     

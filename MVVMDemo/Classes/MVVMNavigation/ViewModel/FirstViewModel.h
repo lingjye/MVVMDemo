@@ -14,6 +14,4 @@
 
 @property (nonatomic,strong,readonly) SecondViewModel *secondViewModel;
 
-@property (nonatomic,weak) UIViewController *vc;
-
 @end

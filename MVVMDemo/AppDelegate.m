@@ -7,12 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "BaseViewModelServicesImpl.h"
-#import "FirstViewModel.h"
 
 @interface AppDelegate ()
-@property (nonatomic, strong) BaseViewModelServicesImpl *services;
-@property (nonatomic, strong) BaseViewModel *viewModel;
+@property (nonatomic, strong, readwrite) BaseViewModelServicesImpl *services;
 @property (nonatomic, strong, readwrite) BaseNavigationControllerStack *navigationControllerStack;
 @end
 
@@ -23,17 +20,10 @@
     
     self.services = [[BaseViewModelServicesImpl alloc] init];
     self.navigationControllerStack = [[BaseNavigationControllerStack alloc] initWithServices:self.services];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.services resetRootViewModel:[self createInitialViewModel]];
-    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
-- (BaseViewModel *)createInitialViewModel {
-    return [[FirstViewModel alloc] initWithServices:self.services params:@{@"title":@"First"}];
-}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

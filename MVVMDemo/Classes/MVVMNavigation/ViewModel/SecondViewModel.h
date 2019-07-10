@@ -10,6 +10,4 @@
 
 @interface SecondViewModel : BaseViewModel
 
-@property (nonatomic,weak) UIViewController *vc;
-
 @end

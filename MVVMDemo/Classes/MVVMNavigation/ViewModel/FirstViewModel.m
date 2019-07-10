@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewModel.h"
-#import "SecondViewController.h"
+#import "SecondViewModel.h"
 
 @interface FirstViewModel ()
 
@@ -22,12 +22,8 @@
     @weakify(self);
     self.didSelectCommand = [[RACCommand alloc] initWithSignalBlock:^(NSIndexPath *indexPath) {
         @strongify(self)
-#if 0
         self.secondViewModel = [[SecondViewModel alloc] initWithServices:self.services params:@{@"title":@"Second"}];
         [self.services pushViewModel:self.secondViewModel animated:YES];
-#endif
-        SecondViewController *secondVC = [[SecondViewController alloc] initWithParams:@{@"title":@"Second"}];
-        [self.vc.navigationController pushViewController:secondVC animated:YES];
         return [RACSignal empty];
     }];
 }

@@ -7,8 +7,7 @@
 //
 
 #import "ThirdViewModel.h"
-
-#import "FourthViewController.h"
+#import "FourthViewModel.h"
 
 @implementation ThirdViewModel
 
@@ -16,8 +15,10 @@
     @weakify(self);
     self.didSelectCommand = [[RACCommand alloc] initWithSignalBlock:^(NSIndexPath *indexPath) {
         @strongify(self)
-        FourthViewController *fourthViewController = [[FourthViewController alloc] initWithParams:@{@"title":@"Fourth"}];
-        [self tx_presentViewController:fourthViewController animated:YES completion:nil];
+        FourthViewModel *viewModel = [[FourthViewModel alloc] initWithParams:@{@"title":@"Fourth"}];
+        [self presentViewModel:viewModel animated:YES completion:^{
+            
+        }];
 //        [self tx_popToRootViewControllerAnimated:YES];
         return [RACSignal empty];
     }];

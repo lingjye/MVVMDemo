@@ -7,10 +7,7 @@
 //
 
 #import "BaseViewModel.h"
-
 #import "BaseViewModelServices.h"
-
-#import "BaseNavigationViewController.h"
 
 @interface BaseViewModel ()
 
@@ -76,27 +73,12 @@
 
 - (void)initialize {}
 
-- (void)tx_pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    [VisibleViewController().navigationController pushViewController:viewController animated:animated];
-}
+- (void)pushViewModel:(BaseViewModel *)viewModel animated:(BOOL)animated {}
 
-- (void)tx_popViewControllerAnimated:(BOOL)animated {
-    [VisibleViewController().navigationController popViewControllerAnimated:animated];
-}
+- (void)popViewModelAnimated:(BOOL)animated {}
 
-- (void)tx_popToRootViewControllerAnimated:(BOOL)animated {
-    [VisibleViewController().navigationController popToRootViewControllerAnimated:animated];
-}
+- (void)presentViewModel:(BaseViewModel *)viewModel animated:(BOOL)animated completion:(VoidBlock)completion {}
 
-- (void)tx_presentViewController:(UIViewController *)viewController animated:(BOOL)animated completion:(dispatch_block_t)completion {
-    if (![viewController isKindOfClass:UINavigationController.class]) {
-        viewController = [[BaseNavigationViewController alloc] initWithRootViewController:viewController];
-    }
-    [VisibleViewController() presentViewController:viewController animated:animated completion:completion];
-}
-
-- (void)tx_dismissViewControllerAnimated:(BOOL)animated completion:(dispatch_block_t)completion {
-    [VisibleViewController() dismissViewControllerAnimated:animated completion:completion];
-}
+- (void)dismissViewModelAnimated:(BOOL)animated completion:(VoidBlock)completion {}
 
 @end

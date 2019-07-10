@@ -13,6 +13,14 @@
 		2E0CE22C1F43CD450093E86C /* DemoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0CE22B1F43CD450093E86C /* DemoTool.m */; };
 		2E0CE22F1F43D2140093E86C /* FourthViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0CE22E1F43D2140093E86C /* FourthViewModel.m */; };
 		2E0CE2321F43D2230093E86C /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0CE2311F43D2230093E86C /* FourthViewController.m */; };
+		2E7AB93322D57D690079534E /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AB93222D57D690079534E /* MVVMViewModel.m */; };
+		2E7AB93722D57FF10079534E /* RACViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AB93622D57FF10079534E /* RACViewModel.m */; };
+		2E7AB93A22D57FFB0079534E /* RACModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AB93922D57FFB0079534E /* RACModel.m */; };
+		2E7AB93D22D5800F0079534E /* RACTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AB93C22D5800F0079534E /* RACTableViewCell.m */; };
+		2E7AB94022D5801B0079534E /* RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AB93F22D5801B0079534E /* RACViewController.m */; };
+		2E7AB94322D580430079534E /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AB94222D580430079534E /* MVVMViewController.m */; };
+		2E7AB94622D5804C0079534E /* MVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AB94522D5804C0079534E /* MVVMModel.m */; };
+		2E7AB94922D5805A0079534E /* MVVMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AB94822D5805A0079534E /* MVVMTableViewCell.m */; };
 		2EB030A21F4139B3003AE7E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB030A11F4139B3003AE7E1 /* main.m */; };
 		2EB030A51F4139B3003AE7E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB030A41F4139B3003AE7E1 /* AppDelegate.m */; };
 		2EB030A81F4139B3003AE7E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB030A71F4139B3003AE7E1 /* ViewController.m */; };
@@ -69,6 +77,22 @@
 		2E0CE22E1F43D2140093E86C /* FourthViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewModel.m; sourceTree = "<group>"; };
 		2E0CE2301F43D2230093E86C /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		2E0CE2311F43D2230093E86C /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		2E7AB93122D57D690079534E /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		2E7AB93222D57D690079534E /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		2E7AB93522D57FF10079534E /* RACViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACViewModel.h; sourceTree = "<group>"; };
+		2E7AB93622D57FF10079534E /* RACViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACViewModel.m; sourceTree = "<group>"; };
+		2E7AB93822D57FFB0079534E /* RACModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACModel.h; sourceTree = "<group>"; };
+		2E7AB93922D57FFB0079534E /* RACModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACModel.m; sourceTree = "<group>"; };
+		2E7AB93B22D5800F0079534E /* RACTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACTableViewCell.h; sourceTree = "<group>"; };
+		2E7AB93C22D5800F0079534E /* RACTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTableViewCell.m; sourceTree = "<group>"; };
+		2E7AB93E22D5801B0079534E /* RACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACViewController.h; sourceTree = "<group>"; };
+		2E7AB93F22D5801B0079534E /* RACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACViewController.m; sourceTree = "<group>"; };
+		2E7AB94122D580430079534E /* MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
+		2E7AB94222D580430079534E /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
+		2E7AB94422D5804C0079534E /* MVVMModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMModel.h; sourceTree = "<group>"; };
+		2E7AB94522D5804C0079534E /* MVVMModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMModel.m; sourceTree = "<group>"; };
+		2E7AB94722D5805A0079534E /* MVVMTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMTableViewCell.h; sourceTree = "<group>"; };
+		2E7AB94822D5805A0079534E /* MVVMTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMTableViewCell.m; sourceTree = "<group>"; };
 		2EB0309D1F4139B3003AE7E1 /* MVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB030A11F4139B3003AE7E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EB030A31F4139B3003AE7E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,6 +177,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E7AB92F22D57CE40079534E /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				2E7AB93122D57D690079534E /* MVVMViewModel.h */,
+				2E7AB93222D57D690079534E /* MVVMViewModel.m */,
+				2E7AB94122D580430079534E /* MVVMViewController.h */,
+				2E7AB94222D580430079534E /* MVVMViewController.m */,
+				2E7AB94422D5804C0079534E /* MVVMModel.h */,
+				2E7AB94522D5804C0079534E /* MVVMModel.m */,
+				2E7AB94722D5805A0079534E /* MVVMTableViewCell.h */,
+				2E7AB94822D5805A0079534E /* MVVMTableViewCell.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		2E7AB93022D57CEF0079534E /* MVVM+RAC */ = {
+			isa = PBXGroup;
+			children = (
+				2E7AB93522D57FF10079534E /* RACViewModel.h */,
+				2E7AB93622D57FF10079534E /* RACViewModel.m */,
+				2E7AB93822D57FFB0079534E /* RACModel.h */,
+				2E7AB93922D57FFB0079534E /* RACModel.m */,
+				2E7AB93B22D5800F0079534E /* RACTableViewCell.h */,
+				2E7AB93C22D5800F0079534E /* RACTableViewCell.m */,
+				2E7AB93E22D5801B0079534E /* RACViewController.h */,
+				2E7AB93F22D5801B0079534E /* RACViewController.m */,
+			);
+			path = "MVVM+RAC";
+			sourceTree = "<group>";
+		};
+		2E7AB93422D57D7B0079534E /* MVVMNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				2EB030D91F413C3E003AE7E1 /* Controller */,
+				2EB030DA1F413C3E003AE7E1 /* Model */,
+				2EB030DB1F413C3E003AE7E1 /* View */,
+				2EB030DC1F413C3E003AE7E1 /* ViewModel */,
+			);
+			path = MVVMNavigation;
+			sourceTree = "<group>";
+		};
 		2EB030941F4139B2003AE7E1 = {
 			isa = PBXGroup;
 			children = (
@@ -223,10 +288,9 @@
 		2EB030D81F413C3E003AE7E1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2EB030D91F413C3E003AE7E1 /* Controller */,
-				2EB030DA1F413C3E003AE7E1 /* Model */,
-				2EB030DB1F413C3E003AE7E1 /* View */,
-				2EB030DC1F413C3E003AE7E1 /* ViewModel */,
+				2E7AB93422D57D7B0079534E /* MVVMNavigation */,
+				2E7AB93022D57CEF0079534E /* MVVM+RAC */,
+				2E7AB92F22D57CE40079534E /* MVVM */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -271,8 +335,6 @@
 			children = (
 				2EB030E31F413C79003AE7E1 /* BaseView.h */,
 				2EB030E41F413C79003AE7E1 /* BaseView.m */,
-				2EB031121F414E17003AE7E1 /* BaseNavigationControllerStack.h */,
-				2EB031131F414E17003AE7E1 /* BaseNavigationControllerStack.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +349,8 @@
 				2EB0310F1F414D4C003AE7E1 /* BaseViewModelServicesImpl.h */,
 				2EB031101F414D4C003AE7E1 /* BaseViewModelServicesImpl.m */,
 				2EB0310C1F41407A003AE7E1 /* BaseNavigationProtocol.h */,
+				2EB031121F414E17003AE7E1 /* BaseNavigationControllerStack.h */,
+				2EB031131F414E17003AE7E1 /* BaseNavigationControllerStack.m */,
 				2EB030F91F413D24003AE7E1 /* FirstViewModel.h */,
 				2EB030FA1F413D24003AE7E1 /* FirstViewModel.m */,
 				2EB030FC1F413D30003AE7E1 /* SecondViewModel.h */,
@@ -417,6 +481,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -602,24 +667,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7AB93D22D5800F0079534E /* RACTableViewCell.m in Sources */,
 				2EB030EF1F413CF1003AE7E1 /* SecondViewController.m in Sources */,
 				2EB030A81F4139B3003AE7E1 /* ViewController.m in Sources */,
 				2EB030E81F413C86003AE7E1 /* BaseViewModel.m in Sources */,
 				2EB030DF1F413C5C003AE7E1 /* BaseViewController.m in Sources */,
 				2EB030A51F4139B3003AE7E1 /* AppDelegate.m in Sources */,
 				2EB030FB1F413D24003AE7E1 /* FirstViewModel.m in Sources */,
+				2E7AB94022D5801B0079534E /* RACViewController.m in Sources */,
+				2E7AB94322D580430079534E /* MVVMViewController.m in Sources */,
 				2EB030E21F413C6C003AE7E1 /* BaseModel.m in Sources */,
 				2EB031201F41512D003AE7E1 /* BaseTabbarViewController.m in Sources */,
 				2E0CE22F1F43D2140093E86C /* FourthViewModel.m in Sources */,
 				2EB031111F414D4C003AE7E1 /* BaseViewModelServicesImpl.m in Sources */,
 				2E0CE2271F43CBCE0093E86C /* ThirdViewController.m in Sources */,
+				2E7AB94922D5805A0079534E /* MVVMTableViewCell.m in Sources */,
 				2EB030A21F4139B3003AE7E1 /* main.m in Sources */,
+				2E7AB93322D57D690079534E /* MVVMViewModel.m in Sources */,
+				2E7AB93722D57FF10079534E /* RACViewModel.m in Sources */,
 				2EB031171F414E93003AE7E1 /* BaseNavigationViewController.m in Sources */,
 				2EB030E51F413C79003AE7E1 /* BaseView.m in Sources */,
 				2EB030FE1F413D30003AE7E1 /* SecondViewModel.m in Sources */,
 				2E0CE2321F43D2230093E86C /* FourthViewController.m in Sources */,
+				2E7AB94622D5804C0079534E /* MVVMModel.m in Sources */,
 				2EB030EC1F413CE3003AE7E1 /* FirstViewController.m in Sources */,
 				2E0CE22C1F43CD450093E86C /* DemoTool.m in Sources */,
+				2E7AB93A22D57FFB0079534E /* RACModel.m in Sources */,
 				2EB0311A1F414EF3003AE7E1 /* Router.m in Sources */,
 				2E0CE2241F43CBC10093E86C /* ThirdViewModel.m in Sources */,
 				2EB031141F414E17003AE7E1 /* BaseNavigationControllerStack.m in Sources */,
